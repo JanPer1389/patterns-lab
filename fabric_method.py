@@ -1,10 +1,6 @@
-from enum import Enum
 from math import *
 
-class CoordinateSystem(Enum):
-    Cartesian = 1
-    Polar = 2
-    
+
 class Point:
     def __init__(self, x, y):
         self.x = x
